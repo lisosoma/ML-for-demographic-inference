@@ -12,17 +12,17 @@ Full-fledged genetic data are not used to output demographic history parameters,
 
 ## Results
 
-1. Predicted vs true (independent parameters)
+### 1. Predicted vs true (independent parameters)
 
 #### True: 
 Size of subpopulation 1 after split: 1.0
-\\
+
 Size of subpopulation 2 after split: 48.85396396 
-\\
+
 Migration rate from subpopulation 2 to subpopulation 1: 5.0
-\\
+
 Migration rate from subpopulation 1 to subpopulation 2: 2.5
-\\
+
 Time of split: 0.05
 
 allele-frequency spectrum
@@ -43,3 +43,21 @@ Time of split: 0.05
 
 allele-frequency spectrum
 ![pred1](pred1.jpeg)
+
+### 1. Predicted vs true (chained multioutput regression)
+
+#### Predict: 
+
+Size of subpopulation 1 after split: 0.99994725
+
+Size of subpopulation 2 after split: 48.81326944
+
+Migration rate from subpopulation 2 to subpopulation 1: 4.99998889
+
+Migration rate from subpopulation 1 to subpopulation 2: 2.49998193
+
+Time of split: 0.05
+
+ 48.81326944  4.99998889  2.49998193  0.05
+ 
+![pred1](pred2.jpeg)
