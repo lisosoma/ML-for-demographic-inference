@@ -26,7 +26,7 @@ Migration rate from subpopulation 1 to subpopulation 2: 4.19419419
 Time of split: 0.05
 
 allele-frequency spectrum
-![pred1](true1.jpeg)
+![pred1](true1.jpg)
 
 
 #### Predict: 
