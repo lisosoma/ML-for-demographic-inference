@@ -17,27 +17,27 @@ Full-fledged genetic data are not used to output demographic history parameters,
 #### True: 
 Size of subpopulation 1 after split: 1.0
 
-Size of subpopulation 2 after split: 48.85396396 
+Size of subpopulation 2 after split: 0.1
 
 Migration rate from subpopulation 2 to subpopulation 1: 5.0
 
-Migration rate from subpopulation 1 to subpopulation 2: 2.5
+Migration rate from subpopulation 1 to subpopulation 2: 4.19419419
 
 Time of split: 0.05
 
 allele-frequency spectrum
-![pred1](true.jpeg)
+![pred1](true1.jpeg)
 
 
 #### Predict: 
 
 Size of subpopulation 1 after split: 0.99994725
 
-Size of subpopulation 2 after split: 48.81326944
+Size of subpopulation 2 after split: 0.1
 
 Migration rate from subpopulation 2 to subpopulation 1: 4.99998889
 
-Migration rate from subpopulation 1 to subpopulation 2: 2.49998193
+Migration rate from subpopulation 1 to subpopulation 2: 4.19488176
 
 Time of split: 0.05
 
@@ -50,14 +50,12 @@ allele-frequency spectrum
 
 Size of subpopulation 1 after split: 0.99994725
 
-Size of subpopulation 2 after split: 48.81326944
+Size of subpopulation 2 after split: 0.1
 
 Migration rate from subpopulation 2 to subpopulation 1: 4.99998889
 
-Migration rate from subpopulation 1 to subpopulation 2: 2.49998193
+Migration rate from subpopulation 1 to subpopulation 2: 4.19393344
 
 Time of split: 0.05
 
- 48.81326944  4.99998889  2.49998193  0.05
- 
 ![pred1](pred2.jpeg)
