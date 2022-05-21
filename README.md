@@ -15,7 +15,7 @@
 - Reveal the number of iterations required for the **random search** to archive the same likelihood as ML model.
 
 ## Methods
-To implement the pipeline was used Dadi package, in which there are methods that allow generating an allele-frequency spectrum according to the parameters of demographic history and counting the likelihood. 
+To implement the **pipeline** was used **Dadi package**, in which there are methods that allow generating an allele-frequency spectrum according to the parameters of demographic history and counting the likelihood. 
 
 Selected [demographic history model](https://github.com/noscode/demographic_inference_data/tree/master/2_DivMig_5_Sim) has five parameters that we want to predict.This model has the next parameters:
 - Size of subpopulation 1 after split (SSP1);
@@ -26,12 +26,12 @@ Selected [demographic history model](https://github.com/noscode/demographic_infe
 
 The symbols in parentheses will be used in the scheme of operation of multi-output machine learning models for convenience.
 
-As a machine learning model, a random forest was taken as the simplest model.
+As a machine learning model, a random forest was taken as the simplest model. Below is a diagram of how multi-output models will be trained. As you can see here, everything depends on the location of the parameters in the vector of the predicted parameters: $[PSS1, PSS2, MR21, MR12, TS]$
 
 ![schema](ml_schemas.png)
 
 #### Random search 
-The random search algorithm is given in the form of a flowchart below. Such a search should be carried out for each spectrum from the test sample. The likelihood here is calculated using the dadi library, then all the results are averaged.
+The random search algorithm is given in the form of a flowchart below. Such a search should be carried out for each spectrum from the test sample. The **likelihood** here is calculated using the dadi library, then all the results are averaged.
 ![search](random_search.png)
 
 ## Results
