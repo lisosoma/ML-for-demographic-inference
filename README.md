@@ -35,7 +35,7 @@ As you can see here, everything depends on the location of the parameters in the
 The random search algorithm is given in the form of a flowchart below. Such a search should be carried out for each spectrum from the test sample. The **likelihood** here is calculated using the dadi library, then all the results are averaged.
 ![search](random_search.png)
 
-Also, the coefficient of determination was used as a metric:  $$R^2=1-\frac{\hat{\sigma}^2}{\hat{\sigma}_y^2}$$ is the proportion of the variation in the dependent variable that is predictable from the independent variable(s).
+Also, the **coefficient of determination** was used as a metric:  $$R^2=1-\frac{\hat{\sigma}^2}{\hat{\sigma}_y^2}$$ is the proportion of the variation in the dependent variable that is predictable from the independent variable(s).
 
 
 ## Results
