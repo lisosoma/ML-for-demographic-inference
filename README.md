@@ -74,7 +74,7 @@ The file contains a complete pipeline of the research done, divided into section
 
 |  Model | mean R2 metric | random search metric |
 | --- | --- | --- |
-| --- | First dataset | --- |
+| First dataset |
 | `nu1` | 1.000 | Size of subpopulation 1 after split. |
 | `nu2` | 0.100 | Size of subpopulation 2 after split. |
 | `m12` | 5.000 | Migration rate from subpopulation 2 to subpopulation 1. |
