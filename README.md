@@ -17,9 +17,18 @@
 ## Methods
 To implement the pipeline was used Dadi package, in which there are methods that allow generating an allele-frequency spectrum according to the parameters of demographic history and counting the likelihood. 
 
-Selected [demographic history model](https://github.com/noscode/demographic_inference_data/tree/master/2_DivMig_5_Sim) has five parameters that we want to predict. 
+Selected [demographic history model](https://github.com/noscode/demographic_inference_data/tree/master/2_DivMig_5_Sim) has five parameters that we want to predict.This model has the next parameters:
+- Size of subpopulation 1 after split (SSP1);
+- Size of subpopulation 2 after split (SSP2);
+- Migration rate from subpopulation 2 to subpopulation 1 (MR21);
+- Migration rate from subpopulation 1 to subpopulation 2 (MR12);
+- Time of split (TS).
+
+The symbols in parentheses will be used in the scheme of operation of multi-output machine learning models for convenience.
 
 As a machine learning model, a random forest was taken as the simplest model.
+
+![schema](ml_schemas.png)
 
 #### Random search 
 The random search algorithm is given in the form of a flowchart below. Such a search should be carried out for each spectrum from the test sample. The likelihood here is calculated using the dadi library, then all the results are averaged.
