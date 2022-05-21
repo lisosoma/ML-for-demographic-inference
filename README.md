@@ -12,8 +12,7 @@ Full-fledged genetic data are not used to output demographic history parameters,
 
 ## Methods
 
-To implement the pipeline was used [Dadi package](https://dadi.readthedocs.io/en/latest/api/dadi/), in which there are methods that allow generating an allele-frequency spectrum according to the parameters of demographic history and counting the likelihood. Selected [demographic history model](https://github.com/noscode/demographic_inference_data/tree/master/2_DivMig_5_Sim). [Machine learning model](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html#sklearn.ensemble.RandomForestRegressor)
-
+To implement the pipeline was used Dadi package, in which there are methods that allow generating an allele-frequency spectrum according to the parameters of demographic history and counting the likelihood. Selected [demographic history model](https://github.com/noscode/demographic_inference_data/tree/master/2_DivMig_5_Sim). As a machine learning model, a random forest was taken as the simplest model.
 ## Results
 
 ### 1. Predicted vs true (independent parameters)
