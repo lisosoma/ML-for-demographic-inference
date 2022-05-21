@@ -6,6 +6,12 @@
 
 *Supervisor: E. E. Noskova*
 
+## Brief description of the project
+
+In population genetics, the allele frequency spectrum, sometimes called the site frequency spectrum, is the distribution of the allele frequencies of a given set of loci (often SNPs) in a population or sample.
+
+Full-fledged genetic data are not used to output demographic history parameters, as they require a lot of computing resources. Therefore, they use various statistics based on these data. One of these statistics is the allele-frequency spectrum. In the simplest case, it can be represented as a multidimensional tensor (matrix). Existing methods for deriving demographic history parameters (dadi, moments) use local optimization algorithms that work faster for given initial approximations of parameters close to optimal. In this project, it is proposed to apply the simplest machine learning methods for approximate prediction of the parameters of the demographic history of two populations. As machine learning algorithms, a choice is offered: random forest or convolutional neural networks. It is required to generate data, train and validate the selected method on them.
+
 ## Goals
 - Сhoose a model of the demographic history of two populations on which **the effectiveness of the methods will be explored**;
 - Generate data using dadi library;
