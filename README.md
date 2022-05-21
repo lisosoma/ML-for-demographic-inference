@@ -36,17 +36,16 @@ As a machine learning model, a random forest was taken as the simplest model. Be
 
 ![schema](ml_schemas.png)
 
-As you can see here, everything depends on the location of the parameters in the vector of the predicted parameters: $$[PSS1, \ PSS2, \ MR21, \ MR12,  \ TS]$$.
+As you can see here, everything depends on the location of the parameters in the vector of the predicted parameters: $$\Theta = [PSS1, \ PSS2, \ MR21, \ MR12,  \ TS].$$
 #### Random search 
 The random search algorithm is given in the form of a flowchart below. Such a search should be carried out for each spectrum from the test sample. The **likelihood** here is calculated using the dadi library, then all the results are averaged.
 ![search](random_search.png)
 
 Also, the **coefficient of determination** was used as a metric:  $$R^2=1-\frac{\hat{\sigma}^2}{\hat{\sigma}_y^2}$$ is the proportion of the variation in the dependent variable that is predictable from the independent variable(s). R2 is a measure of the goodness of fit of a model. In regression, the R2 coefficient of determination is a statistical measure of how well the regression predictions approximate the real data points. An R2 of 1 indicates that the regression predictions perfectly fit the data.
 
-
 ## Results
 ### Pipeline
-The file contains a complete pipeline of the research done, divided into sections: data preparation and generation of datasets, selection of machine learning model, train and test it, random search algorithm.
+The file contains a complete pipeline of the research done (see file `ML_DI_pipeline_full.ipynb`, divided into sections: data preparation and generation of datasets, selection of machine learning model, train and test it, random search algorithm.
 
 ### Predicted vs true: for example, for the First dataset
 #### True: 
