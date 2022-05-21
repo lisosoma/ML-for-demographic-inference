@@ -129,3 +129,6 @@ You can run this experiment in a flask by first creating an **ML_DI folder** on 
 It should be noted that there are two datasets, the first `X_test1` and the second `X_test2`, predictions `y_pred1` and `y_pred3` were made for `X_test1`, which were made using **model I** and **model II**, similarly, predictions `y_pred2` and `y_pred4` were made for `X_test2`.
 
 Thus, for further use in random search, remember the rule: for a dataset with an odd number, the names of the predictions have odd numbers, for a dataset with an even number, the predictions have even numbers.
+
+## Gratitude
+I express your gratitude for the opportunity to participate in the project to our scientific supervisor E. E. Noskova (ITMO).
