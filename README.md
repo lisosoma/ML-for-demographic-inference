@@ -29,20 +29,14 @@ Selected [demographic history model](https://github.com/noscode/demographic_infe
 As a machine learning model, a random forest was taken as the simplest model.
 ## Results
 
-### 1. Predicted vs true (independent parameters)
+### 1. Predicted vs true: for example, for the First dataset
 
 #### True: 
-Size of subpopulation 1 after split: 1.0
-
-Size of subpopulation 2 after split: 0.1
-
-Migration rate from subpopulation 2 to subpopulation 1: 5.0
-
-Migration rate from subpopulation 1 to subpopulation 2: 4.19419419
-
-Time of split: 0.05
-
-allele-frequency spectrum
+- Size of subpopulation 1 after split: 62.89603
+- Size of subpopulation 2 after split: 15.38311
+ -Migration rate from subpopulation 2 to subpopulation 1:7.05037
+- Migration rate from subpopulation 1 to subpopulation 2: 0.45979
+ -Time of split: 0.03093
 ![true1](/spectrums/true1.png)
 
 
