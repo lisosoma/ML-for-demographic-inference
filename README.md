@@ -8,17 +8,12 @@
 
 ## Goals
 
-Сhoose a model of the demographic history of two populations on which the effectiveness of the methods will be explored;
-
-Generate data using dadi library;
-
-Train a machine learning Multi-Output Regression model that assumes all parameters are independent (model I);
-
-Train a machine learning Multi-Output Regression model that assumes all parameters correlate (model II);
-
-Validate models by R2 metric;
-
-Reveal the number of iterations required for the random search to archive the same likelihood as ML model.
+-- Сhoose a model of the demographic history of two populations on which the effectiveness of the methods will be explored;
+-- Generate data using dadi library;
+-- Train a machine learning Multi-Output Regression model that assumes all parameters are independent (model I);
+-- Train a machine learning Multi-Output Regression model that assumes all parameters correlate (model II);
+-- Validate models by R2 metric;
+-- Reveal the number of iterations required for the random search to archive the same likelihood as ML model.
 
 ## Methods
 
