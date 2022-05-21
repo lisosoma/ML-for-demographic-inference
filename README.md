@@ -4,7 +4,7 @@
 
 *Author: E. E. Gorelkina*
 
-*Supervisor: E. E. Noskova*
+*Supervisor: E. E. Noskova (ITMO University)*
 
 ## Brief description of the project
 
