@@ -36,7 +36,7 @@ As a machine learning model, a random forest was taken as the simplest model. Be
 
 ![schema](ml_schemas.png)
 
-As you can see here, everything depends on the location of the parameters in the vector of the predicted parameters: $$\Theta = [PSS1, \ PSS2, \ MR21, \ MR12,  \ TS].$$
+As you can see here, everything depends on the location of the parameters in the vector of the predicted parameters: $$\Theta = [SSP1, \ SSP2, \ MR21, \ MR12,  \ TS].$$
 #### Random search 
 The random search algorithm is given in the form of a flowchart below. Such a search should be carried out for each spectrum from the test sample. The **likelihood** here is calculated using the dadi library, then all the results are averaged.
 ![search](random_search.png)
