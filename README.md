@@ -71,13 +71,17 @@ Dadi package for generate allele-frequency spectrums: https://dadi.readthedocs.i
 ### Installing packages
 
 To install dadi, you can use the command:
+
     pip install dadi
     
 ### Running simple example
     
 Next you need to download all the files available in folder, named simple_command_line_example, except for files with the jpeg extension, and save them for convenience in a separate directory on your local computer (it is recommended to use Ubuntu v.18 and higher), then, depending on your desire to test any model, you need to enter the command:
+
     python example.py MultiOutputRegressor1.sav y_test1.txt X_test1.txt 
+    
 or
+
     python example.py RegressorChain1.sav y_test1.txt X_test1.txt
     
  You may also need Python language libraries sklearn, matplotlib.
