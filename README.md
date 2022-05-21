@@ -89,4 +89,4 @@ or
     
 ### Pipeline running
 
-You can run this experiment in a flask by first creating an ML_DI folder on your Google drive and uploading all files from the sample_data and sample_models directories to it, pre-unzipping them if necessary.
+You can run this experiment in a flask by first creating an **ML_DI folder** on your Google drive and uploading all files from the sample_data and sample_models directories to it, pre-unzipping them if necessary. Or you can repeat the entire pipeline without downloading files, the main thing is to connect Google drive to your colab and create the desired folder in it.
