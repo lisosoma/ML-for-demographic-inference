@@ -131,4 +131,4 @@ It should be noted that there are two datasets, the first `X_test1` and the seco
 Thus, for further use in random search, remember the rule: for a dataset with an odd number, the names of the predictions have odd numbers, for a dataset with an even number, the predictions have even numbers.
 
 ## Gratitude
-I express my gratitude for the opportunity to participate in the project to our scientific supervisor E. E. Noskova (ITMO).
+I express my gratitude for the opportunity to participate in the project to my scientific supervisor E. E. Noskova (ITMO).
