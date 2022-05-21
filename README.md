@@ -22,6 +22,9 @@ Selected [demographic history model](https://github.com/noscode/demographic_infe
 As a machine learning model, a random forest was taken as the simplest model.
 
 ## Results
+### Pipeline
+The file contains a complete pipeline of the research done, divided into sections: data preparation and generation of datasets, selection of machine learning model, train and test it, random search algorithm.
+
 ### Predicted vs true: for example, for the First dataset
 #### True: 
 - Size of subpopulation 1 after split: 62.89603
@@ -84,4 +87,6 @@ or
 
     python example.py RegressorChain1.sav y_test1.txt X_test1.txt
     
- You may also need Python language libraries sklearn, matplotlib.
+### Pipeline running
+
+You can run this experiment in a flask by first creating an ML_DI folder on your Google drive and uploading all files from the sample_data and sample_models directories to it, pre-unzipping them if necessary.
