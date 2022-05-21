@@ -26,7 +26,7 @@ Selected [demographic history model](https://github.com/noscode/demographic_infe
 
 The symbols in parentheses will be used in the scheme of operation of multi-output machine learning models for convenience.
 
-As a machine learning model, a random forest was taken as the simplest model. Below is a diagram of how multi-output models will be trained. As you can see here, everything depends on the location of the parameters in the vector of the predicted parameters: $[PSS1, PSS2, MR21, MR12, TS]$
+As a machine learning model, a random forest was taken as the simplest model. Below is a diagram of how multi-output models will be trained. As you can see here, everything depends on the location of the parameters in the vector of the predicted parameters: $$[PSS1, \ PSS2, \ MR21, \ MR12,  \ TS]$$
 
 ![schema](ml_schemas.png)
 
