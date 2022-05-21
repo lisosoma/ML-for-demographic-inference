@@ -67,6 +67,11 @@ allele-frequency spectrum
 
 ## Conclusions
 
+For the selected demographic history model and the selected machine learning model, the predictions turned out to be quite accurate.
+The random search metric is interpreted as follows: if it is greater than 50 (such a number of random points is used in classical optimization), then we get acceleration. For all the models obtained, this metric was about 1000, that is, there is an acceleration of predictions.
+For future research and development, this approach can be made more universal by training machine learning models on different demographic history models.
+As an alternative possible machine learning model, you can use a convolutional network, for example, when there are three or more populations in the demographic history.
+
 ## References
 
 Ekaterina Noskova's repository where the demographic history model was taken from: https://github.com/noscode/demographic_inference_data
