@@ -60,3 +60,7 @@ Time of split: 0.05
 
 allele-frequency spectrum
 ![pred12](/spectrums/pred12.jpeg)
+
+## References
+
+\url{https://dadi.readthedocs.io/en/latest/api/dadi/}
