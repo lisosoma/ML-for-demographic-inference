@@ -65,3 +65,8 @@ Documentation for the Random Forest machine learning model: https://scikit-learn
 Multiclass and multioutput algorithms: https://scikit-learn.org/stable/modules/multiclass.html#
 
 Dadi package for generate allele-frequency spectrums: https://dadi.readthedocs.io/en/latest/api/dadi/
+
+## Startup instructions
+
+To install dadi, you can use the command
+    pip install dadi
