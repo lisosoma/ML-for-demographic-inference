@@ -72,7 +72,7 @@ The file contains a complete pipeline of the research done, divided into section
 
 ### Metrics
 
-|  Model | mean $R^2$ metric | random search metric |
+|  Model | mean R2 metric | random search metric |
 | --- | --- | --- |
 | First dataset |
 | **model I** | 0.896454 | **1172** |
@@ -80,6 +80,8 @@ The file contains a complete pipeline of the research done, divided into section
 | Second dataset |
 | **model I** | **0.995372** | **1034** |
 | **model II** | 0.995322 | 925 |
+
+As you can see, the models do not differ much globally, the possible reason is that the parameters do not correlate with each other.
 
 
 ## Conclusions
