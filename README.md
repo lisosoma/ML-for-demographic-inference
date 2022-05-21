@@ -65,4 +65,7 @@ Time of split: 0.05
 allele-frequency spectrum
 ![pred12](/spectrums/pred12.jpeg)
 
+## Conclusions
+
+## References
 
