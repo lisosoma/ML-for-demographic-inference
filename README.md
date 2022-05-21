@@ -72,14 +72,15 @@ The file contains a complete pipeline of the research done, divided into section
 
 ### Metrics
 
-|  Model | mean R2 metric | random search metric |
+|  Model | mean $R^2$ metric | random search metric |
 | --- | --- | --- |
 | First dataset |
-| `nu1` | 1.000 | Size of subpopulation 1 after split. |
-| `nu2` | 0.100 | Size of subpopulation 2 after split. |
-| `m12` | 5.000 | Migration rate from subpopulation 2 to subpopulation 1. |
-| `m21` | 2.500 | Migration rate from subpopulation 1 to subpopulation 2. |
-| `T` | 0.050 | Time of split. |
+| **model I** | 0.896454 | **1172** |
+| **model II** | **0.897235** | 854 |
+| Second dataset |
+| **model I** | **0.995372** | **1034** |
+| **model II** | 0.995322 | 925 |
+
 
 ## Conclusions
 For the selected demographic history model and the selected machine learning model, the predictions turned out to be quite accurate.
