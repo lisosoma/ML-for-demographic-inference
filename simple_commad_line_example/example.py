@@ -15,7 +15,6 @@ if len(sys.argv) < 4:
 filename = sys.argv[1]
 testy = sys.argv[2]
 testx = sys.argv[3]
-testn = sys.argv[4]
 
 pts_l = 20
 
