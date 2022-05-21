@@ -96,13 +96,13 @@ For future research and development, this approach can be made more universal by
 As an alternative possible machine learning model, you can use a convolutional network, for example, when there are three or more populations in the demographic history.
 
 ## References
-Ekaterina Noskova's repository where the demographic history model was taken from: https://github.com/noscode/demographic_inference_data
+1. Ekaterina Noskova's repository where the demographic history model was taken from: https://github.com/noscode/demographic_inference_data
 
-Documentation for the Random Forest machine learning model: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html#sklearn.ensemble.RandomForestRegressor
+2. Documentation for the Random Forest machine learning model: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html#sklearn.ensemble.RandomForestRegressor
 
-Multiclass and multioutput algorithms: https://scikit-learn.org/stable/modules/multiclass.html#
+3. Multiclass and multioutput algorithms: https://scikit-learn.org/stable/modules/multiclass.html#
 
-Dadi package for generate allele-frequency spectrums: https://dadi.readthedocs.io/en/latest/api/dadi/
+4. Dadi package for generate allele-frequency spectrums: https://dadi.readthedocs.io/en/latest/api/dadi/
 
 ## Startup instructions
 
