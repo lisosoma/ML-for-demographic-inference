@@ -36,9 +36,9 @@ The random search algorithm is given in the form of a flowchart below. Such a se
 ![search](random_search.png)
 
 Also, the coefficient of determination was used as a metric: 
-```math
-$R^{2}=1-{\frac{{\hat{\sigma }}^{2}}{{\hat{\sigma }}_{y}^{2}}}=1-{\frac{SS_{res}/n}{SS_{tot}/n}}=1-{\frac{SS_{res}}{SS_{tot}}}$
-```
+
+<img src="https://render.githubusercontent.com/render/math?math=$R^{2}=1-{\frac{{\hat{\sigma }}^{2}}{{\hat{\sigma }}_{y}^{2}}}=1-{\frac{SS_{res}/n}{SS_{tot}/n}}=1-{\frac{SS_{res}}{SS_{tot}}}$> 
+
 
 ## Results
 ### Pipeline
