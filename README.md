@@ -37,7 +37,7 @@ The random search algorithm is given in the form of a flowchart below. Such a se
 
 Also, the coefficient of determination was used as a metric: 
 ```math
-R^{2}=1-{\frac{{\hat{\sigma }}^{2}}{{\hat{\sigma }}_{y}^{2}}}=1-{\frac{SS_{res}/n}{SS_{tot}/n}}=1-{\frac{SS_{res}}{SS_{tot}}}
+$R^{2}=1-{\frac{{\hat{\sigma }}^{2}}{{\hat{\sigma }}_{y}^{2}}}=1-{\frac{SS_{res}/n}{SS_{tot}/n}}=1-{\frac{SS_{res}}{SS_{tot}}}$
 ```
 
 ## Results
