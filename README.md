@@ -7,12 +7,12 @@
 *Supervisor: E. E. Noskova*
 
 ## Goals
-- Сhoose a model of the demographic history of two populations on which the effectiveness of the methods will be explored;
+- Сhoose a model of the demographic history of two populations on which **the effectiveness of the methods will be explored**;
 - Generate data using dadi library;
-- Train a machine learning Multi-Output Regression model that assumes all parameters are independent (model I);
-- Train a machine learning Multi-Output Regression model that assumes all parameters correlate (model II);
+- Train a machine learning Multi-Output Regression model that assumes all **parameters are independent (model I)**;
+- Train a machine learning Multi-Output Regression model that assumes all **parameters correlate (model II)**;
 - Validate models by R2 metric;
-- Reveal the number of iterations required for the random search to archive the same likelihood as ML model.
+- Reveal the number of iterations required for the **random search** to archive the same likelihood as ML model.
 
 ## Methods
 To implement the pipeline was used Dadi package, in which there are methods that allow generating an allele-frequency spectrum according to the parameters of demographic history and counting the likelihood. 
@@ -54,6 +54,8 @@ The file contains a complete pipeline of the research done, divided into section
 ![pred12](/spectrums/pred12.png)
 
 ### Metrics
+#### Random search 
+![search](random_search.png)
 ## Conclusions
 For the selected demographic history model and the selected machine learning model, the predictions turned out to be quite accurate.
 The random search metric is interpreted as follows: if it is greater than 50 (such a number of random points is used in classical optimization), then we get acceleration. For all the models obtained, this metric was about 1000, that is, there is an acceleration of predictions.
