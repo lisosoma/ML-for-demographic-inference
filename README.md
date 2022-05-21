@@ -30,7 +30,7 @@ Migration rate from subpopulation 1 to subpopulation 2: 4.19419419
 Time of split: 0.05
 
 allele-frequency spectrum
-![true1](/spectrums/true1.jpeg)
+![true1](/spectrums/true1.png)
 
 
 #### Predict: 
@@ -46,7 +46,7 @@ Migration rate from subpopulation 1 to subpopulation 2: 4.19488176
 Time of split: 0.05
 
 allele-frequency spectrum
-![pred11](/spectrums/pred11.jpeg)
+![pred11](/spectrums/pred11.png)
 
 ### 2. Predicted vs true (chained multioutput regression)
 
@@ -63,7 +63,7 @@ Migration rate from subpopulation 1 to subpopulation 2: 4.19393344
 Time of split: 0.05
 
 allele-frequency spectrum
-![pred12](/spectrums/pred12.jpeg)
+![pred12](/spectrums/pred12.png)
 
 ## Conclusions
 
