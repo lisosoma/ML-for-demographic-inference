@@ -21,6 +21,10 @@ Selected [demographic history model](https://github.com/noscode/demographic_infe
 
 As a machine learning model, a random forest was taken as the simplest model.
 
+#### Random search 
+The random search algorithm is given in the form of a flowchart below. Such a search should be carried out for each spectrum from the test sample. The likelihood here is calculated using the dadi library, then all the results are averaged.
+![search](random_search.png)
+
 ## Results
 ### Pipeline
 The file contains a complete pipeline of the research done, divided into sections: data preparation and generation of datasets, selection of machine learning model, train and test it, random search algorithm.
@@ -54,8 +58,9 @@ The file contains a complete pipeline of the research done, divided into section
 ![pred12](/spectrums/pred12.png)
 
 ### Metrics
-#### Random search 
-![search](random_search.png)
+
+
+
 ## Conclusions
 For the selected demographic history model and the selected machine learning model, the predictions turned out to be quite accurate.
 The random search metric is interpreted as follows: if it is greater than 50 (such a number of random points is used in classical optimization), then we get acceleration. For all the models obtained, this metric was about 1000, that is, there is an acceleration of predictions.
