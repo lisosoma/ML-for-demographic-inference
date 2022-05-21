@@ -8,7 +8,17 @@
 
 ## Goals
 
-Full-fledged genetic data are not used to output demographic history parameters, as they require a lot of computing resources. Therefore, they use various statistics based on these data. One of these statistics is the allele-frequency spectrum. In the simplest case, it can be represented as a multidimensional tensor (matrix). Existing methods for deriving demographic history parameters (dadi, moments) use local optimization algorithms that work faster for given initial approximations of parameters close to optimal. In this project, it is proposed to apply the simplest machine learning methods for approximate prediction of the parameters of the demographic history of two populations. As machine learning algorithms, a choice is offered: random forest or convolutional neural networks. It is required to generate data, train and validate the selected method on them.
+Сhoose a model of the demographic history of two populations on which the effectiveness of the methods will be explored;
+
+Generate data using dadi library;
+
+Train a machine learning Multi-Output Regression model that assumes all parameters are independent (model I);
+
+Train a machine learning Multi-Output Regression model that assumes all parameters correlate (model II);
+
+Validate models by R2 metric;
+
+Reveal the number of iterations required for the random search to archive the same likelihood as ML model.
 
 ## Methods
 
