@@ -63,4 +63,4 @@ allele-frequency spectrum
 
 ## References
 
-\url{https://dadi.readthedocs.io/en/latest/api/dadi/}
+1. Dadi package https://dadi.readthedocs.io/en/latest/api/dadi/
